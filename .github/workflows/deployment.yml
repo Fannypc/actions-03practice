@@ -1,7 +1,7 @@
 name: first workflow
 on: push
 jobs:
-  run-lint:
+  deploying-app:
     runs-on: ubuntu-latest
     steps:
       - name: Get code
